@@ -7,7 +7,7 @@
 #   include profile::base
 class profile::base {
   class { 'motd':
-      content => "Hello! You are in ${trusted['extensions']['pp_datacenter']}"
+      content => "Hello! You are in ${trusted['extensions']['pp_datacenter']}\n"
   }
 }
 
