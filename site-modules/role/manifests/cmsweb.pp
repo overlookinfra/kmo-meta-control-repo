@@ -5,6 +5,5 @@
 # @example
 #   include role::cmsweb
 class role::cmsweb {
-  notify { "Hello! my role is: ${trusted['extensions']['pp_role']} \
-  and I've been running for ${facts['uptime']}": }
+  include profile::base
 }
