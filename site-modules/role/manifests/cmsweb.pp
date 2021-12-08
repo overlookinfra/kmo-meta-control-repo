@@ -6,4 +6,5 @@
 #   include role::cmsweb
 class role::cmsweb {
   include profile::base
+  include profile::apache
 }
