@@ -6,4 +6,5 @@
 #   include role::ecommerce
 class role::ecommerce {
   include profile::base
+  include profile::cmsweb
 }
