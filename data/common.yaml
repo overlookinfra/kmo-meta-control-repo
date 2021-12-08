@@ -1,2 +1,4 @@
 ---
-message: "This node is using common data"
+profile::base::login_message: 'hello'
+profile::ntp::servers: [ '0.pool.ntp.org', '1.pool.ntp.org' ]--
+
