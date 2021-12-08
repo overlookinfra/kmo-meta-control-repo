@@ -20,3 +20,7 @@ forge 'https://forge.puppet.com'
 mod 'puppetlabs-motd', '6.1.0'
 mod 'puppetlabs-registry', '4.0.1'
 mod 'puppetlabs-stdlib', '8.1.0'
+mod 'puppetlabs-apache', '7.0.0' # Fixes nixagent1 module dependency
+mod 'puppetlabs-iis', '8.0.3'    # Fixes winagent module dependency
+mod 'puppetlabs-concat', '7.1.1'   # Fixes nixagent1 module dependency
+mod 'puppetlabs-pwshlib', '0.10.0' # Fixes winagent module dependency
