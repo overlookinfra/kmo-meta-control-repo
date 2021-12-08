@@ -13,7 +13,5 @@ File { backup => false }
 ## Node Definitions ##
 
 node default {
-  # This is where you can declare classes for all nodes.
-  # Example:
-  #   class { 'my_class': }
+  include "role::${trusted['extensions']['pp_role']}"
 }
