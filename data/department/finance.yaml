@@ -1,0 +1,3 @@
+# data/department/finance.yaml
+---
+profile::base::login_message: 'WARNING: This server is monitored by sec ops.'
