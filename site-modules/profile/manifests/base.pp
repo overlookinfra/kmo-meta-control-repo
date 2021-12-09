@@ -5,9 +5,8 @@
 #
 # @example
 #   include profile::base
-class profile::base {
-  class { 'motd':
-      content => "Hello! You are in ${trusted['extensions']['pp_datacenter']}\n"
-  }
+# profile/manifests/base.pp
+# profile/manifests/base.pp
+class profile::base ($login_message){
+  class {'motd':content => $login_message,}
 }
-
