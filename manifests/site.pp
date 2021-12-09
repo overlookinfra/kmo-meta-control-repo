@@ -13,5 +13,7 @@ File { backup => false }
 ## Node Definitions ##
 
 node default {
-  include "role::${trusted['extensions']['pp_role']}"
+  if $trusted['extensions']['pp_role'] {
+    include "role::${trusted['extensions']['pp_role']}"
+  }
 }
