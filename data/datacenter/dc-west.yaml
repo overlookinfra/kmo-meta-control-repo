@@ -1,0 +1,3 @@
+# <control-repo>/data/datacenter/dc-west.yaml
+---
+profile::apache::port: 8080

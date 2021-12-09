@@ -1,2 +1,4 @@
+# <control-repo>/data/common.yaml
 ---
 profile::base::login_message: 'Welcome!'
+profile::apache::port: 80
